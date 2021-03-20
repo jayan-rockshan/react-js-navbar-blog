@@ -1,0 +1,23 @@
+.test-a{
+    padding: 5%;
+}
+.test-c,.test-e,.test-g{
+    padding: 1% 0%;
+    font-size: large;
+}
+.test-g >a{
+    text-decoration: none;
+    color: #1a75ff;
+}
+.test-a >h1 {
+    color: #1a1a1a;
+    
+}
+@media(max-width:680px){
+    .test-a >h1 {
+        font-size: larger;
+    }
+    .test-c,.test-e,.test-g{
+        font-size: large;
+    }
+}
